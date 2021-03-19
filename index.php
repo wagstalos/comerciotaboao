@@ -114,7 +114,7 @@
     <!-- nossos parceiros -->
     <section id="stores">
         <h1 class="wps text-center s-title">Nossos parceiros</h1>
-        <div class="float-right mr-4">
+        <div class="float-md-right text-center">
             <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
                 <label>
                     <input type="search" class="search-field"
@@ -137,12 +137,15 @@
         </div>
     </section>
 
-    <section class="pattern">
+    <section class="pattern center-mobile">
         <div class="container text-dark" id="sobre">
             <h1 class="wps text-center s-title">Sobre</h1>
 
             <div class="row text-dark">
-
+                <div class="col-md-6 mt-4 text-center">
+                    <?php $template_directory = get_template_directory_uri(); ?>
+                    <img class="img-fluid" src="<?php echo $template_directory;?>/img/cel.png" />
+                </div>
                 <div class="col-md-6">
                     <h3 class="wps">O que é o comércio Taboão?</h3>
                     <p class="mt-4"> A ideia surgiu para ajudar o comercio local do Taboão da Serra nesse momento
@@ -189,13 +192,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6 mt-4">
-                    <?php 
-                        if(is_active_sidebar( 'sobre-img' )){
-                            dynamic_sidebar( 'sobre-img' );
-                        }
-                    ?>
-                </div>
+
             </div>
 
 

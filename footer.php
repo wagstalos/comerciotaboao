@@ -35,7 +35,8 @@
                         <a href="https://apoia.se/comerciotaboao"><img src="img/logoRed.svg" alt="" width="100px"></a>
                     </div>
                     <div class="col-md-4 mt-4">
-                        <img src="img/ppay-icon.png" alt="" width="50px">
+                    <?php $template_directory = get_template_directory_uri(); ?>
+                        <img width="100px" src="<?php echo $template_directory;?>/img/logoRed.svg" />
                         <p class="text-light">wagner.paulo89</p>
                     </div>
                 </div>
