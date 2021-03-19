@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #f7f7f7!important;
 }
 a{
     color: #31d35e;
@@ -7,10 +8,67 @@ a{
 a:hover{
     text-decoration: none;
 }
+[type=search]{
+    border: #d7d9da 1px solid;
+    border-radius:25px ;
+    background-color: rgb(241, 241, 241);
+}
+[type=submit]{
+    border: none;
+    border-radius:50px ;
+    background-color: #fff;
+}
+
 /* gerais */
+/* pluglim post grid and filter */
+.pgafu-filter li.pgafu-active-filtr a {
+    background: #2BB7DA;
+}
+.pgafu-post-grid-main.pgafu-design-1 .readmorebtn {
+    border: 0px;
+    border-bottom: 1px solid #2BB7DA;
+    font-size: 15px;
+}
+.pgafu-filter li a {
+    color: #31D35C ;
+    background: #ffffff;
+    border: 1px solid #2BB7DA;
+    border-radius: 25px;
+}
+.pgafu-post-categories {
+    position: absolute;
+    left: 35px;
+    top: 160px;
+}
+.pgafu-post-categories a:nth-child(4n+1) {
+    background-image: linear-gradient(to right, #31D35C ,#2BB7DA);
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+
+}
+.pgafu-post-categories a {
+    border-radius: 10px;
+
+}
+.pgafu-post-grid-main.pgafu-design-1.pgafu-image-fit .pgafu-medium-3 .pgafu-post-image-bg {
+    height: 180px;
+    border-radius: 15px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.readmorebtn:hover, .readmorebtn:focus, .readmorebtn:active {
+    background: #31D35C;
+    color: #fff;
+}
+
 .logo{
     width: 250px ;
 }
+.top-img{
+    margin-top: -29px;
+}
+.p-100{
+    padding: 100px 40px;
+}
+
 .btn-primary {
     color: #31D35C;
     background-color: rgba(255,255,255, 1);
@@ -36,6 +94,7 @@ a:hover{
 }
 .card-img-top {
     box-shadow: 12px 13px 10px 0px RGBA(0,0,0,0.11);
+    border-radius: 10px;
 }
 .mt-50{
     margin-top: 50px;
@@ -308,9 +367,12 @@ footer{
 }
 
 /******* lojas******* */
+#stores{
+    background-color: #fff;
+}
 .banner-stores{
-    background: url(../img/background-stores.jpg) no-repeat center top;;
-    padding: 70px 0px;
+    background: url(../img/background-stores.jpg) no-repeat center top;
+    padding: 30px 0px;
     z-index: 0;    
 }
 .img-lojas{
