@@ -57,7 +57,10 @@
                         </a>
                     </div>
                     <div class="text-center mr-2 ml-2">
-                        teste
+                        <a href="https://www.instagram.com/comerciotaboao/">
+                            <?php $template_directory = get_template_directory_uri(); ?>
+                            <img width="25px" src="<?php echo $template_directory;?>/img/instagram.svg" />
+                        </a>
                     </div>
                 </div>
             </nav>
@@ -130,70 +133,48 @@
 
         <div class="mt-5">
             <div>
-                <?php echo do_shortcode ('[pgaf_post_filter grid="4"  content_words_limit="10" show_date="false" show_comments="false" show_author="false" extra_class=""]'); ?>
+                <?php echo do_shortcode ('[pgaf_post_filter grid="4"  content_words_limit="8" show_date="false" show_comments="false" show_author="false" extra_class=""]'); ?>
             </div>
         </div>
     </section>
 
+	<!-- Sobre -->								 
     <section class="pattern center-mobile">
         <div class="container text-dark" id="sobre">
             <h1 class="wps text-center s-title">Sobre</h1>
-
+            <div class="text-center">
+                <?php $template_directory = get_template_directory_uri(); ?>
+                <img class="img-fluid" src="<?php echo $template_directory;?>/img/cel.png" />
+            </div>
             <div class="row text-dark">
-                <div class="col-md-6 mt-4 text-center">
-                    <?php $template_directory = get_template_directory_uri(); ?>
-                    <img class="img-fluid" src="<?php echo $template_directory;?>/img/cel.png" />
-                </div>
                 <div class="col-md-6">
                     <h3 class="wps">O que é o comércio Taboão?</h3>
                     <p class="mt-4"> A ideia surgiu para ajudar o comercio local do Taboão da Serra nesse momento
                         difícil de
                         pandemia, reunindo informações de diversos estabelecimentos, como serviços prestado, local e
                         contato, num só
-                        lugar.
-                    <h3 class="wps mt-50">Qual o valor?</h3>
+                        lugar.</p>
+                    <h3 class="wps mt-50">Por que devo participar?</h3>
                     <p class="mt-4">
-                        Neste momento delicado para os pequenos empreendedores, esta iniciativa é totalmente
-                        gratuita.
+                        Seu negócio ficará online para milhares de pessoas, clientes potenciais, além do mais em uma
+                        única página encontrará diversos serviços do seu bairro.
                     </p>
-                    <h3 class="wps mt-50" id="ajudar">Mas e se eu quiser ajudar o projeto?</h3>
-                    <p class="mt-4">
-                        Fique à vontade para fazer uma doação de qualquer valor para o programador. Isso ajuda o
-                        projeto a se manter
-                        no ar.
-                    </p>
-                    <div class="row align-items-center justify-content-center text-center">
-                        <div class="col-md-4 mt-4">
-                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                                <input type="hidden" name="cmd" value="_donations" />
-                                <input type="hidden" name="business" value="wagstalos@hotmail.com" />
-                                <input type="hidden" name="item_name" value="Ajudar o comércio local" />
-                                <input type="hidden" name="currency_code" value="BRL" />
-                                <input type="image"
-                                    src="https://www.paypalobjects.com/pt_BR/BR/i/btn/btn_donateCC_LG.gif" border="0"
-                                    name="submit" title="PayPal - The safer, easier way to pay online!"
-                                    alt="Faça doações com o botão do PayPal" />
-                                <img alt="" border="0" src="https://www.paypal.com/pt_BR/i/scr/pixel.gif" width="1"
-                                    height="1" />
-                            </form>
-                        </div>
-                        <div class="col-md-4 mt-4">
-                            <a href="https://apoia.se/comerciotaboao">
-                                <?php $template_directory = get_template_directory_uri(); ?>
-                                <img width="100px" src="<?php echo $template_directory;?>/img/logoRed.svg" />
-                            </a>
-                        </div>
-                        <div class="col-md-4 mt-4">
-                            <?php $template_directory = get_template_directory_uri(); ?>
-                            <img width="40px" src="<?php echo $template_directory;?>/img/ppay-icon.png" />
-                            <p>wagner.paulo89</p>
-                        </div>
-                    </div>
+
                 </div>
-
+                <div class="col-md-6">
+                    <h3 class="wps">Como funciona?</h3>
+                    <p class="mt-4">
+                        Neste momento delicado para os pequenos empreendedores, você terá direito a 3 meses totalmente
+                        gratuitos, sem compromisso. Após o período, será cobrado R$29,90 por mês.
+                    </p>
+                    <h3 class="wps mt-50">O que oferecemos?</h3>
+                    <p class="mt-4">
+                        Um site com todas informações do seu negócio, no qual você poderá editá-lo quando quiser
+                        utilizando seu login. Além disso, atuaremos no marketing digital em por meio do nosso Instagram
+                        <b>@comerciotaboao</b> e com publicidade do Google.
+                    </p>
+                </div>
             </div>
-
-
         </div>
     </section>
 
@@ -209,10 +190,10 @@
                     <div class="col-12 col-md-4">
                         <div class="mt-4">
                             <?php 
-                        if(is_active_sidebar( 'patrocinador1' )){
-                            dynamic_sidebar( 'patrocinador1' );
-                        }
-                    ?>
+										if(is_active_sidebar( 'patrocinador1' )){
+											dynamic_sidebar( 'patrocinador1' );
+										}
+                   		 	?>
                         </div>
                     </div>
 
