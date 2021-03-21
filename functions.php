@@ -10,7 +10,6 @@ function load_scripts(){
 	wp_enqueue_script( 'bootstrap-min', get_template_directory_uri() . '/js/bootstrap.min.js', array('jquery-two'), null, true);
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js',array('jquery-two'), null, true);
 	wp_enqueue_script( 'modernizr', get_template_directory_uri() . '/js/modernizr.js',array('jquery-two'), null, true );
-
     
     //registra o Custom Navigate Walker
     // require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';

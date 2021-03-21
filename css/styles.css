@@ -8,7 +8,7 @@ a{
  ul {
     margin: 0;
     margin-bottom: 2rem;
-    margin-block-start: 0;
+    margin-block-start: 0!important;
 }
 a:hover{
     text-decoration: none;
@@ -17,6 +17,8 @@ a:hover{
     border: #d7d9da 1px solid;
     border-radius:25px ;
     background-color: rgb(241, 241, 241);
+    margin-top: 40px;
+    padding: 7px;
 }
 [type=submit]{
     border: none;
@@ -24,6 +26,7 @@ a:hover{
     background-color: #fff;
 }
 /* gerais */
+
 /* pluglim post grid and filter */
 .pgafu-post-grid-main.pgafu-design-1 .pgafu-post-content {
     padding-bottom: 10px;
@@ -213,6 +216,15 @@ nav.fill ul li a:hover:after {
 .btn-invite{
     background-image: linear-gradient(to right, #31D35C ,#2BB7DA);
     border-radius: 50px;
+}
+.btn-login{
+    border-radius: 50px;
+    color: #31D35C;
+    border: 1px solid #2BB7DA;
+}
+.btn-login a:hover{
+    border-radius: 50px;
+    color: #2BB7DA;
 }
 .btn-invite a{
     color: #fff;

@@ -26,6 +26,7 @@
 
     gtag('config', 'UA-173639439-1');
     </script>
+      <script src="https://cdn.lordicon.com//libs/frhvbuzj/lord-icon-2.0.2.js"></script>
 </head>
 
 

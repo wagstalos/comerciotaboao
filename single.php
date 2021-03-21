@@ -8,11 +8,12 @@
                 <path stroke="none" d="M0 0h24v24H0z" />
                 <path d="M9 13l-4 -4l4 -4m-4 4h11a4 4 0 0 1 0 8h-1" />
             </svg>
+            
         </a>
-		<div class="text-center">
-			<?php the_post_thumbnail(array( 100, 100 ), ['class' => 'rounded shadow']); ?>	
-			<h2 class="text-light mt-2"><?php the_title(); ?> </h2>
-		</div>
+        <div class="text-center">
+            <?php the_post_thumbnail(array( 100, 100 ), ['class' => 'rounded shadow']); ?>
+            <h2 class="text-light mt-2"><?php the_title(); ?> </h2>
+        </div>
 
     </div>
 

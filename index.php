@@ -36,13 +36,28 @@
                         <li class="mr-2 ml-2">
                             <a href="#patrocinadores" class="nav-link " href="#" tabindex="-1">Patrocinadores</a>
                         </li>
-                        <li class="mr-2 ml-2">
+                        <li class="mr-2 ml-2 mb-4 mb-md-0">
                             <a href="https://apoia.se/comerciotaboao" class="nav-link" tabindex="-1">Apoiar</a>
                         </li>
                     </ul>
-                    <div class="btn-invite text-center">
+                    <div class="btn-invite text-center mr-2 ml-2 mb-4 mb-md-0">
                         <a href="https://api.whatsapp.com/send?l=pt_BR&amp;phone=5511999488027" target="blank"
                             class="nav-link">Anuncie aqui</a>
+                    </div>
+                    <div class="btn-login text-center mr-2 ml-2 mb-4 mb-md-0 nav-link">
+                        <a href="<?php echo esc_url( home_url( '/wp-login.php' ) ); ?>">
+                            <div class="d-flex align-items-center justify-content-center">
+
+                                <lord-icon src="https://cdn.lordicon.com//dxjqoygy.json" trigger="hover"
+                                    colors="primary:#31d35c,secondary:#31d35c" style="width:25px;height:25px">
+                                </lord-icon>
+                                Login
+
+                            </div>
+                        </a>
+                    </div>
+                    <div class="text-center mr-2 ml-2">
+                        teste
                     </div>
                 </div>
             </nav>
@@ -54,43 +69,23 @@
         <div class="container">
             <div class="row align-items-center justify-content-center text-light">
                 <div class="col-md-6 mt-4 center-mobile ">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler-shopping-cart" width="27" height="35"
-                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFF" fill="none" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" />
-                        <circle cx="9" cy="19" r="2" />
-                        <circle cx="17" cy="19" r="2" />
-                        <path d="M3 3h2l2 12a3 3 0 0 0 3 2h7a3 3 0 0 0 3 -2l1 -7h-15.2" />
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler-discount" width="35" height="35"
-                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFF" fill="none" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" />
-                        <line x1="9" y1="15" x2="15" y2="9" />
-                        <circle cx="9.5" cy="9.5" r=".5" fill="currentColor" />
-                        <circle cx="14.5" cy="14.5" r=".5" fill="currentColor" />
-                        <path
-                            d="M5 7.2a2.2 2.2 0 0 1 2.2 -2.2h1a2.2 2.2 0 0 0 1.55 -.64l.7 -.7a2.2 2.2 0 0 1 3.12 0l.7 .7a2.2 2.2 0 0 0 1.55 .64h1a2.2 2.2 0 0 1 2.2 2.2v1a2.2 2.2 0 0 0 .64 1.55l.7 .7a2.2 2.2 0 0 1 0 3.12l-.7 .7a2.2 2.2 0 0 0 -.64 1.55 v1a2.2 2.2 0 0 1 -2.2 2.2h-1a2.2 2.2 0 0 0 -1.55 .64l-.7 .7a2.2 2.2 0 0 1 -3.12 0l-.7 -.7a2.2 2.2 0 0 0 -1.55 -.64h-1a2.2 2.2 0 0 1 -2.2 -2.2v-1a2.2 2.2 0 0 0 -.64 -1.55l-.7 -.7a2.2 2.2 0 0 1 0 -3.12l.7 -.7a2.2 2.2 0 0 0 .64 -1.55 v-1" />
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler-bandage" width="35" height="35"
-                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFF" fill="none" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" />
-                        <line x1="14" y1="12" x2="14" y2="12.01" />
-                        <line x1="10" y1="12" x2="10" y2="12.01" />
-                        <line x1="12" y1="10" x2="12" y2="10.01" />
-                        <line x1="12" y1="14" x2="12" y2="14.01" />
-                        <path d="M4.5 12.5l8 -8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1 -7 -7" />
-                    </svg>
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler-bike" width="35" height="35"
-                        viewBox="0 0 24 24" stroke-width="1.5" stroke="#FFF" fill="none" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" />
-                        <circle cx="5" cy="18" r="3" />
-                        <circle cx="19" cy="18" r="3" />
-                        <polyline points="12 19 12 15 9 12 14 8 16 11 19 11" />
-                        <circle cx="17" cy="5" r="1" />
-                    </svg>
+
+                    <lord-icon src="https://cdn.lordicon.com//fyhanzjw.json" trigger="loop" delay="100"
+                        colors="primary:#ffffff,secondary:#ffffff" style="width:65px;height:65px">
+                    </lord-icon>
+
+                    <lord-icon src="https://cdn.lordicon.com//coqbeapw.json" trigger="loop"
+                        colors="primary:#ffffff,secondary:#ffffff" style="width:65px;height:65px">
+                    </lord-icon>
+                    <lord-icon src="https://cdn.lordicon.com//jpdtnwas.json" trigger="loop"
+                        colors="primary:#ffffff,secondary:#ffffff" style="width:65px;height:65px">
+                    </lord-icon>
+                    <lord-icon src="https://cdn.lordicon.com//sbiheqdr.json" trigger="loop"
+                        colors="primary:#ffffff,secondary:#ffffff" style="width:65px;height:65px">
+                    </lord-icon>
+                    <lord-icon src="https://cdn.lordicon.com//mlnkdrif.json" trigger="loop"
+                        colors="primary:#ffffff,secondary:#ffffff" style="width:65px;height:65px">
+                    </lord-icon>
                     <h1 class="mt-2">
                         Construindo um comércio melhor <b>para todos!</b>
                     </h1>
@@ -114,23 +109,26 @@
     <!-- nossos parceiros -->
     <section id="stores">
         <h1 class="wps text-center s-title">Nossos parceiros</h1>
-        <div class="float-md-right text-center">
-            <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-                <label>
-                    <input type="search" class="search-field"
-                        placeholder="<?php echo esc_attr_x( 'Pesquisar &hellip;', 'placeholder', 'twentysixteen' ); ?>"
-                        value="<?php echo get_search_query(); ?>" name="s" />
-                </label>
-                <button type="submit" class="search-submit" id="search-btn">
-                    <span class="screen-reader-text">
-                        <?php echo _x( '', 'submit button', 'twentysixteen' ); ?>
-                    </span>
-                    <?php $template_directory = get_template_directory_uri(); ?>
-                    <img width="" src="<?php echo $template_directory;?>/img/icon-search.svg" />
-                </button>
-            </form>
+        <div class="container-fluid">
+            <div class="float-md-right text-center">
+                <form role="search" method="get" class="search-form" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+                    <label>
+                        <input type="search" class="search-field"
+                            placeholder="<?php echo esc_attr_x( 'Pesquisar &hellip;', 'placeholder', 'twentysixteen' ); ?>"
+                            value="<?php echo get_search_query(); ?>" name="s" />
+                    </label>
+                    <button type="submit" class="search-submit" id="search-btn">
+                        <span class="screen-reader-text">
+                            <?php echo _x( '', 'submit button', 'twentysixteen' ); ?>
+                        </span>
+                        <?php $template_directory = get_template_directory_uri(); ?>
+                        <img width="" src="<?php echo $template_directory;?>/img/icon-search.svg" />
+                    </button>
+                </form>
+            </div>
         </div>
-        <div class="col-12 mt-5">
+
+        <div class="mt-5">
             <div>
                 <?php echo do_shortcode ('[pgaf_post_filter grid="4"  content_words_limit="10" show_date="false" show_comments="false" show_author="false" extra_class=""]'); ?>
             </div>
@@ -205,10 +203,10 @@
             <div class="container text-center">
                 <h2 class="wps">Patrocinadores</h2>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-12 col-md-4">
 
                     </div>
-                    <div class="col-4">
+                    <div class="col-12 col-md-4">
                         <div class="mt-4">
                             <?php 
                         if(is_active_sidebar( 'patrocinador1' )){
@@ -218,10 +216,8 @@
                         </div>
                     </div>
 
-                    <div class="col-4">
-                        <div class="mt-4">
+                    <div class="col-12 col-md-4">
 
-                        </div>
                     </div>
                 </div>
             </div>
@@ -232,12 +228,9 @@
         <div class="container text-center">
             <h1 class="wps s-title">Contato</h1>
 
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler-mail" width="35" height="35" viewBox="0 0 24 24"
-                stroke-width="1.5" stroke="#2BB7DA" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" />
-                <rect x="3" y="5" width="18" height="14" rx="2" />
-                <polyline points="3 7 12 13 21 7" />
-            </svg>
+            <lord-icon src="https://cdn.lordicon.com//rhvddzym.json" trigger="loop" delay="1"
+                colors="primary:#2bb7da,secondary:#30e8bd" style="width:55px;height:55px">
+            </lord-icon>
             <p> <b>E-mail:</b> wagstalos@hotmail.com</p>
             <svg xmlns="http://www.w3.org/2000/svg" class="icon-tabler-device-mobile" width="35" height="35"
                 viewBox="0 0 24 24" stroke-width="1.5" stroke="#00BCD4" fill="none" stroke-linecap="round"
@@ -254,7 +247,7 @@
     <footer>
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-md-4 text-center text-light">
+                <div class="col-md-4 center-mobile mt-4 mb-4">
                     <a href="#" class="navbar-brand logo">
                         <?php 
                         $pc_custom_logo = get_theme_mod('custom_logo');
@@ -267,9 +260,30 @@
                         }   
                     ?>
                     </a>
+                    <ul class="navbar-nav">
+                        <li class="mr-2 ml-2">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="mr-2 ml-2">
+                            <a href="#sobre" class="nav-link">Sobre</a>
+                        </li>
+                        <li class="mr-2 ml-2">
+                            <a href="#patrocinadores" class="nav-link " href="#" tabindex="-1">Patrocinadores</a>
+                        </li>
+                        <li class="mr-2 ml-2">
+                            <a href="https://apoia.se/comerciotaboao" class="nav-link" tabindex="-1">Apoiar</a>
+                        </li>
+                    </ul>
                 </div>
                 <div class="col-md-5 text-center apoie">
+
+                    <div class="row align-items-center justify-content-center">
+                        <lord-icon src="https://cdn.lordicon.com//yeallgsa.json" trigger="loop"
+                            colors="primary:#ffffff,secondary:#e8e230" style="width:65px;height:65px">
+                        </lord-icon>
+                    </div>
                     <p class="text-light mt-4">Ajude o projeto</p>
+                    <hr>
                     <div class="row align-items-center justify-content-center">
                         <div class="col-md-4 mt-4">
                             <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
